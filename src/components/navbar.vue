@@ -7,13 +7,15 @@
             <i class="pi pi-globe text-2xl text-blue-600 dark:text-white"></i>
             <h1 class="text-xl font-bold font-sans dark:text-white">Countries of the World</h1>
           </div>
-  
+          <router-link to="/" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">
+
           <!-- Navigation Links -->
-          <div class="hidden md:flex space-x-6">
-            <router-link to="/" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">
-              <i class="pi pi-home"> </i> Home </router-link>
+          <div class=" ">
+              <i class="pi pi-home"> </i> Home 
      
           </div>
+          
+        </router-link>
   
         
         </div>

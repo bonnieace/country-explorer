@@ -13,7 +13,9 @@ export const useCounterStore = defineStore('counter', () => {
     try {
       const response = await axios.get('https://restcountries.com/v3.1/all');
       allcountries.value = response.data;
+      
       countries.value=allcountries.value
+      console.log(countries.value)
       isLoading.value=false
     } catch (error) {
       console.error('Error fetching countries:', error);

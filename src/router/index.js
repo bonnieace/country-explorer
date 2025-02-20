@@ -14,7 +14,15 @@ const router = createRouter({
       path: '/:pathMatch(.*)*',
       name: 'notfound',
       component: NotFoundView,
+    },
+    
+    {
+      path: '/country/:countryCode',
+      name: 'CountryDetail',
+      component: () => import('../views/DetailView.vue'),
     }
+
+    
    
   ],
 })
