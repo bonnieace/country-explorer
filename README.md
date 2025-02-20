@@ -1,4 +1,4 @@
-```markdown
+
 # Country Explorer
 
 This project is built with Vue 3 and the rest countries api to explore country data.
@@ -54,4 +54,4 @@ I followed a structured Git workflow to version control:
 
 
 For any issues or suggestions, feel free to open an issue or submit a pull request. Happy coding! 🚀
-```
+
